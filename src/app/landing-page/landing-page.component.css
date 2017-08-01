@@ -11,7 +11,10 @@ div.code-symbol {
 }
 
 div.my-intro {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-weight: 100;
 }
 
@@ -34,7 +37,7 @@ div.typewriter {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 4s steps(44) 0.5s 1 normal both,
   blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
