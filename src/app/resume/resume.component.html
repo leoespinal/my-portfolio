@@ -1,0 +1,250 @@
+<div class="resume-contents">
+  <div id="skills" class="container-fluid bg-1 text-center">
+    <h1>Skills</h1>
+    <hr>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Operating Systems</h3>
+        <ul class="operating-systems">
+          <li id="windows"><img src="../../assets/images/windows-logo.png"></li>
+          <li id="macos"><img src="../../assets/images/mac-os.png"></li>
+          <li id="linux"><img src="../../assets/images/linux.png"></li>
+          <li id="mobile-os"><img src="../../assets/images/ios-android.png"></li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Development</h3>
+        <ul class="dev">
+          <li class="dev-lang" *ngFor="let skill of devSkills">{{skill}}</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Tools</h3>
+        <h4>Development</h4>
+        <ul class="tools-dev">
+          <li class="dev-tools"  *ngFor="let devTool of devTools"><img src="../../assets/images/check_symbol.gif" style="margin: 5px">{{devTool}}</li>
+        </ul>
+        <h4>Design</h4>
+        <ul class="tools-design">
+          <li class="design-tools" *ngFor="let designTool of designTools"><img src="../../assets/images/check_symbol.gif" style="margin: 5px">{{designTool}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="education" class="container-fluid bg-2 text-center">
+    <h2>Education</h2>
+    <hr style="border-color: #1b1b1b">
+    <div class="education-content">
+
+      <div class="col-lg-4 text-center" id="boston-university-card">
+        <div class="bu-logo-container">
+          <img src="../../assets/images/bu-logo.png" style="width: 200px; height: 150px; margin: 10px">
+        </div>
+        <div id="boston-university-card-front">
+          <h4>Boston University, Boston, MA</h4>
+          <p>Master of Science, Computer Science</p>
+          <p>September 2016 - Present</p>
+          <p>Current GPA: 3.5</p>
+        </div>
+      </div>
+      <!--<div id="boston-university-card-back">-->
+        <!--<h4>Coursework</h4>-->
+        <!--<ul>-->
+          <!--<li>Web Application Development</li>-->
+        <!--</ul>-->
+      <!--</div>-->
+
+      <div class="col-lg-4 text-center" id="wentworth-card">
+        <div class="wit-logo-container">
+          <img src="../../assets/images/wit-logo.png" style="width: 150px; height: 175px; margin: 10px">
+        </div>
+        <div id="wentworth-card-front">
+          <h4>Wentworth Institute of Technology, Boston, MA</h4>
+          <p>Bachelor of Science, Computer Engineering Technology</p>
+          <p>Graduated, August 2015</p>
+          <p>GPA: 3.7</p>
+          <hr>
+          <div id="wentworth-awards">
+            <div id="deans-list">
+              <p style="margin: 10px"><em>Dean's List</em></p>
+              <p style="margin: 2px">Fall 2011 - August 2015</p>
+            </div>
+            <div id="leadership">
+              <p style="margin: 10px"><em>Wentworth Leadership Institute Member</em></p>
+              <p style="margin: 2px">Spring 2012 - August 2015</p>
+            </div>
+            <div id="pres-award">
+              <p style="margin: 10px"><em>President's Award Recipient</em></p>
+              <p style="margin: 2px">Spring 2015</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div id="wentworth-card-back">-->
+        <!--<h4>Coursework</h4>-->
+        <!--<ul>-->
+          <!--<li>Object Oriented Programming</li>-->
+        <!--</ul>-->
+      <!--</div>-->
+
+
+
+    </div>
+  </div>
+
+
+  <div id="experience-section" class="container-fluid bg-3 text-center">
+    <h2>Experience</h2>
+    <hr class="experience">
+    <div class="experience-container">
+      <div id="experience-timeline">
+        <div id="job-container-1">
+          <div id="timeline-job1" class="col-md-6 text-center" style="background-color: #1b1b1b">
+            <h4>Software Engineer, VMAX</h4>
+            <p style="color: #00b0ff"><a href="https://www.dellemc.com" style="text-decoration: none;">Dell EMC</a></p>
+            <p>August 2015 - Present</p>
+
+            <p>Developed and maintained an embedded software service that manages the installation and upgrades of virtualized applications running in the VMAX storage array. Currently doing front-end web
+              development for the Unisphere Work Load Processing application team.</p>
+
+            <h4>Projects</h4>
+            <div class="work-projects">
+              <h5 class="work-project-title">Unisphere Work Load Processing Application Development</h5>
+              <div class="work-project-detail">
+                <p>July 2017 - Present</p>
+                <p>
+                  Collaborate with Unisphere application developers to further enhance the work load processing application UI.
+                </p>
+              </div>
+            </div>
+
+            <div class="work-projects">
+              <h5 class="work-project-title">Embedded Cloud Services</h5>
+              <div class="work-project-detail">
+                <p>January 2016 - January 2017</p>
+                <p>
+                  Collaborate with various engineering and development teams to deliver cloud services as an embedded application on the VMAX3.
+                  Participate in design proof of concepts projects and design reviews.
+                  Support further development of the virtualized applications software platform.
+                </p>
+              </div>
+            </div>
+
+            <div class="work-projects">
+              <h5 class="work-project-title">eNAS FAST Hinting</h5>
+              <div class="work-project-detail">
+                <p>September 2015 - December 2015</p>
+                <p>Proof of concept performance analysis of embedded NAS UXFS64 file systems within the VMAX3 storage array.</p>
+                <p>Objective: Write a program that interacts with the Symmetrix storage array API to promote file system metadata to FAST storage engine for performance optimization.
+                  Generate synthetic system workload for file system performance characterization and resource utilization analysis.</p>
+              </div>
+            </div>
+
+            <div class="dev-languages-used">
+              <div>
+                C
+              </div>
+              <div>
+                UNIX Shell Scripting
+              </div>
+              <div>
+                HTML5
+              </div>
+              <div>
+                CSS3
+              </div>
+              <div>
+                TypeScript
+              </div>
+              <div>
+                Bootstrap
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img class="gear-img" src="../../assets/images/gear-icon.png">
+          </div>
+
+        </div>
+
+        <div id="job-container-2">
+          <div class="image-container">
+            <img class="gear-img" src="../../assets/images/gear-icon.png">
+          </div>
+
+          <div id="timeline-job2" class="col-md-6 text-center" style="background-color: #1b1b1b">
+            <h4>Hard Disk Drive Evaluation Engineer (Co-op)</h4>
+            <p style="color: #00b0ff"><a href="https://www.dellemc.com" style="text-decoration: none">Dell EMC</a></p>
+            <p>January 2014 - August 2015</p>
+
+            <p>Test the reliability and functionality of SAS and SATA hard drives for implementation in large scale network storage systems.
+            Implement and design Python scripts for test automation to issue various commands to the drives.
+            Performed HDD firmware testing to identify firmware bugs that could cause issues in the field.
+            Use data analysis techniques to determine trends in drive failures which were included in weekly reports.
+            Developed software, testing procedures and documentation for various device level functional tests.
+              Learn about SAS and SATA drives commands and protocols.</p>
+            <h4>Projects</h4>
+            <div class="work-projects">
+              <h5 class="work-project-title">Current Draw Test GUI</h5>
+              <div class="work-project-detail">
+                <p>Developed a desktop GUI for test automation and simplification using the MFC (Microsoft Foundation Class) library within a Visual Studio development environment.</p>
+              </div>
+            </div>
+            <div class="dev-languages-used">
+              <div>
+                C/C++
+              </div>
+              <div>
+                Python
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="job-container-3">
+          <div id="timeline-job3" class="col-md-6 text-center" style="background-color: #1b1b1b">
+            <h4>Technical Specialist</h4>
+            <p style="color: #00b0ff"><a href="http://www.apple.com" style="text-decoration: none">Apple Inc.</a></p>
+            <p>November 2011 – December 2013</p>
+            <p>Knowledgeable of all Apple products and customer solutions.
+            Provide customers with various opportunities to interact with current technology.
+            Assist customers with technical and non-technical problems regarding Apple products.
+              Deliver exceptional customer service to build long lasting relationships.</p>
+          </div>
+
+          <div class="image-container">
+            <img class="gear-img" src="../../assets/images/gear-icon.png">
+          </div>
+        </div>
+
+        <div id="job-container-4">
+          <div class="image-container">
+            <img class="gear-img" src="../../assets/images/gear-icon.png">
+          </div>
+
+          <div id="timeline-job4" class="col-md-6" style="background-color: #1b1b1b">
+            <h4>Information Technology Intern</h4>
+            <p style="color: #00b0ff"><a href="http://www.ironmountain.com" style="text-decoration: none">Iron Mountain Inc.</a></p>
+            <p>June 2013 - August 2013</p>
+
+            <p>Provided Level 2 support to all internal executive employees from contractors to VPs.
+            Deployed Windows 7 32-bit Enterprise Project to all business machines during company REIT conversion.
+            Maintained all HP business laptops and desktops while doing hardware and software repairs.
+            Collaborated with global IT support team to ensure technical resources were accessible.
+              Assisted remote employees working in several corporate and field locations around North America.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <a href="../../assets/images/projects/resume/Leo%20Espinal's%20Resume.pdf" target="_blank">
+      <button id="download-resume">Grab a copy of my resume</button>
+    </a>
+
+  </div>
+  <!-- Credit for gear icon -->
+  <!--<div>Icons made by <a href="https://www.flaticon.com/authors/lyolya" title="Lyolya">Lyolya</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+</div>

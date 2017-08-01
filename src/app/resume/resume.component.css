@@ -1,0 +1,305 @@
+/* General container styling */
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg-1 {
+  /*background-color: #1abc9c; */
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.bg-2 {
+  /*background-color: #474e5d;*/
+  /*background-color: #78909c;*/
+  /*background-color: burlywood;*/
+  /*color: white;*/
+  background-color: bisque;
+  color: #1b1b1b;
+}
+
+.bg-3 {
+  /*background-color: #ffffff;*/
+  /*background-image: url("../../assets/images/experience-bg.jpeg");*/
+  /*color: #1b1b1b;*/
+  background-color: #00b0ff;
+  opacity: 0.8;
+  color: white;
+}
+
+.col-sm-4 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-weight: 100;
+}
+
+/* Skills section */
+.dev-lang {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  border-style: solid;
+  background: transparent;
+  margin: 2%;
+  font-weight: 100;
+}
+
+ul.dev {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li.dev-lang:hover {
+  background-color: white;
+  /*color: #1abc9c;*/
+  color: #1b1b1b;
+}
+
+ul.operating-systems {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3, h4 {
+  font-weight: 100;
+}
+
+ul.operating-systems li#mobile-os img {
+  width: 200px;
+  height: 100px;
+}
+
+ul.operating-systems li#windows img, li#macos img, li#linux img {
+  width: 100px;
+  height: 100px;
+}
+
+ul.operating-systems li {
+  padding: 20px;
+}
+
+hr {
+  width: 20%;
+}
+
+hr.experience {
+  width: 20%;
+  color: #1b1b1b;
+}
+
+ul.tools-dev, ul.tools-design {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+}
+
+div#skills {
+  padding-top: 20px;
+}
+
+/* Education section */
+div#education {
+  display: flex;
+  flex-direction: column;
+}
+
+div#education div.education-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+div#wentworth-card, div#boston-university-card {
+  /*background-color: white;*/
+  /*opacity: 0.1;*/
+  /*margin: 10px;*/
+  /*color: #474e5d;*/
+  /*background-color: black;*/
+  background-color: #1b1b1b;
+  color: white;
+  width: 80%;
+  /*opacity: 0.6;*/
+  /*position: relative;*/
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+
+div#boston-university-card:hover, div#wentworth-card:hover {
+  opacity: 0.8;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+div#boston-university-card:hover div#boston-university-card-back, div#wentworth-card:hover div#wentworth-card-back {
+  opacity: 0.8;
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
+div#boston-university-card-front, div#boston-university-card-back, div#wentworth-card-front, div#wentworth-card-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 1s;
+  transition: transform 1s;
+}
+
+div#boston-university-card-back, div#wentworth-card-back {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+div#wentworth-awards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div#deans-list, div#leadership, div#pres-award {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div.education-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Experience section */
+div#timeline-job1, div#timeline-job2, div#timeline-job3, div#timeline-job4 {
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+div#experience-timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+div#job-container-1, div#job-container-3 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-weight: 100;
+}
+
+div#job-container-2, div#job-container-4 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-weight: 100;
+}
+
+.work-project-detail {
+  display: none;
+}
+
+.work-project-title:hover + .work-project-detail {
+  display: block;
+  color: #00b0ff;
+}
+
+.work-project-title:hover {
+  color: #00b0ff;
+}
+
+div.dev-languages-used {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.dev-languages-used div {
+  border-radius: 10px;
+  border-color: #00b0ff;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+  margin: 10px;
+  background-color: transparent;
+  font-weight: 100;
+}
+
+div.dev-languages-used div:hover {
+  background-color: #00b0ff;
+}
+
+.work-project-title, .work-project-detail {
+  font-weight: 100;
+}
+
+button#download-resume {
+  border-radius: 10px;
+  background-color: #1b1b1b;
+  color: white;
+  border-style: none;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 50px;
+  width: 80%;
+  font-weight: 100;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.image-container .gear-img {
+  -webkit-animation: spin 20s linear infinite;
+  animation: spin 20s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+  }
+}

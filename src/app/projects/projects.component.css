@@ -1,0 +1,103 @@
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mobile-dev-bg {
+  background-color: #00aa9a;
+  color: white;
+}
+
+.mobile-web-design-bg {
+  /*background-color: brown;*/
+  /*color: white;*/
+  background-color: white;
+  color: #1b1b1b;
+}
+
+* {
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+div hr {
+  width: 40%;
+  text-align: left;
+}
+
+div#mobile-app-dev-container, div#mobile-web-design-container {
+  display: flex;
+  flex-direction: column;
+}
+
+div.app-ui {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+div.ui-screen {
+  margin: 50px;
+  /*max-width: 80%;*/
+}
+
+div.ui-screen:hover {
+  opacity: 0.9;
+}
+
+.design-description {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  padding: 50px;
+  padding-bottom: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.design-description:hover {
+  opacity: 0.7;
+}
+
+.sketch-url {
+  color: white;
+  text-decoration: none;
+}
+
+.sketch-url:visited {
+  color: white;
+}
+
+.sketch-link-btn {
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  background-color: transparent;
+  margin: 50px;
+  padding: 20px;
+  width: 80%;
+}
+
+.sketch-link-container a {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  /*-webkit-box-shadow: 3px 3px 1px #ccc;*/
+  -webkit-box-shadow: 4px 3px 1px #ccc;
+}

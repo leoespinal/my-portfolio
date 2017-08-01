@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  color: white;
+}
+
+h2 {
+  margin: 10px;
+}
+
+div.name a {
+  color: white;
+  font-weight: 100;
+  padding: 20px;
+  margin: 20px;
+}
+
+div#resume > a, div#projects > a, div#contact > a, div#home > a {
+  color: white;
+  font-weight: 100;
+  padding: 20px;
+  margin: 20px;
+  font-size: medium;
+}
+
+div#menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
